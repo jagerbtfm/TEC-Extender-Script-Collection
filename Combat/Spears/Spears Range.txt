@@ -1,0 +1,59 @@
+       {
+        "addAttack": false,
+        "commandList": [
+            {
+                "command": "jab",
+                "parse": {
+                    "moveNextWhen": "You are no longer busy",
+                    "outcome": "You jab at a"
+                }
+            },
+            {
+                "command": "sweep",
+                "parse": [
+                    {
+                        "moveNextWhen": "You are no longer busy",
+                        "outcome": "you sweep at a"
+                    },
+                    {
+                        "moveNextWhen": "",
+                        "outcome": "You can't trip"
+                    }
+                ]
+            },
+            {
+                "command": "thrust",
+                "parse": {
+                    "moveNextWhen": "You are no longer busy",
+                    "outcome": "Lifting it in one hand, you raise your"
+                }
+            },
+            {
+                "command": "upslash",
+                "parse": {
+                    "moveNextWhen": "You are no longer busy",
+                    "outcome": "sweep the blade of your"
+                }
+            },
+            {
+                "command": "sstab",
+                "parse": {
+                    "moveNextWhen": "You are no longer busy",
+                    "outcome": "stepping forward aggressively,"
+                }
+            },
+            {
+                "command": "stab",
+                "parse": {
+                    "moveNextWhen": "You are no longer busy",
+                    "outcome": "You make a quick"
+                }
+            }
+        ],
+        "scriptFriendlyName": "Spears Ranged",
+        "scriptName": "spearsranged",
+        "scriptType": "combat",
+        "shouldKill": true,
+        "shouldKillParse": "You thrust your",
+        "stanceCommand": "scorpion"
+    },

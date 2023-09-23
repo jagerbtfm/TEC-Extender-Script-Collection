@@ -1,0 +1,25 @@
+    {
+        "addAttack": false,
+        "commandList": [
+            {
+                "command": "kick",
+                "parse": {
+                    "moveNextWhen": "You are no longer busy",
+                    "outcome": "You kick your leg"
+                }
+            },
+            {
+                "command": "jab",
+                "parse": {
+                    "moveNextWhen": "You are no longer busy",
+                    "outcome": "You jab"
+                }
+            }
+        ],
+        "scriptFriendlyName": "Staves Min Gains",
+        "scriptName": "stavesmin",
+        "scriptType": "combat",
+        "shouldKill": true,
+        "shouldKillParse": "You bash a",
+        "stanceCommand": "skirmish"
+    },

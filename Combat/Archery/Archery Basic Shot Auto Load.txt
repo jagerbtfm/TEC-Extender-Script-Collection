@@ -1,0 +1,26 @@
+   {
+        "addAttack": false,
+        "commandList": [
+            {
+                "command": "shoot",
+                "parse": [
+                    {
+                        "moveNextNow": true,
+                        "outcome": "isn't loaded"
+                    },
+                    {
+                        "moveNextWhen": "You are no longer busy",
+                        "outcome": "You fire a"
+                    }
+                ]
+            }
+        ],
+        "continueOnWalkIn": true,
+        "scriptFriendlyName": "Archery Basic Shot",
+        "scriptName": "archBasic",
+        "scriptType": "combat",
+        "shouldKill": true,
+        "shouldKillParse": "you twist sharply",
+        "stanceCommand": "",
+        "weaponItemName": ""
+    },

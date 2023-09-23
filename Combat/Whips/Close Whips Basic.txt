@@ -1,0 +1,74 @@
+  {
+        "addAttack": false,
+        "commandList": [
+                {
+                "command": "flick",
+                "parse": {
+                    "moveNextWhen": "You are no longer busy",
+                    "outcome": "Flicking your wrist and forearm"
+                }
+               },            
+                {
+                "command": "supbash",
+                "parse": {
+                    "moveNextWhen": "You are no longer busy",
+                    "outcome": "You bash upward at"
+                }
+            },
+            {
+                "command": "strike",
+                "parse": {
+                    "moveNextWhen": "You are no longer busy",
+                    "outcome": "With a fluid back and forth motion, you strike at"
+                }
+            },
+            {
+                "command": "edgebash",
+                "parse": {
+                    "moveNextWhen": "You are no longer busy",
+                    "outcome": "Tilting your shield forward"
+                }
+            },
+            {
+                "command": "crake",
+                "parse": {
+                    "moveNextWhen": "You are no longer busy",
+                    "outcome": "You kneel down, pulling"
+                }
+                },
+             {
+                "command": "scsc",
+                "parse": {
+                    "moveNextWhen": "You are no longer busy",
+                    "outcome": "your head into a series of diagonal"
+                }
+                },
+             {
+                "command": "sbash",
+                "parse": [
+                    {
+                        "moveNextWhen": "You are no longer busy",
+                        "outcome": "with your shield bash"
+                    },
+                    {
+                        "moveNextWhen": "You are no longer busy",
+                        "outcome": "You bash a"
+                    }
+                ]
+            },
+            {
+                "command": "psnap",
+                "parse": {
+                    "moveNextWhen": "You are no longer busy",
+                    "outcome": "You curl your wrist into a tight loop"
+                }
+            }
+        ],
+        "scriptFriendlyName": "Close Whips and Shield",
+        "scriptName": "closewhipsbasic",
+        "scriptType": "combat",
+        "shouldKill": true,
+        "shouldKillParse": "You wrap your",
+        "stanceCommand": ""
+    },
+

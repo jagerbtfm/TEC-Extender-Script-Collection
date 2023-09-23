@@ -1,0 +1,554 @@
+    {
+        "commandList": [
+            {
+                "command": "clean head with antiseptic",
+                "parse": [
+                    {
+                        "moveNextWhen": "You are no longer busy",
+                        "outcome": "You clean"
+                    },
+                    {
+                        "moveNextWhen": "",
+                        "outcome": "You don't see any"
+                    }
+                ]
+            },
+            {
+                "command": "bandage head with bandages",
+                "parse": [
+                    {
+                        "moveNextWhen": "You are no longer busy",
+                        "outcome": "You wrap a clean bandage around"
+                    },
+                    {
+                        "moveNextWhen": "",
+                        "outcome": "You don't see any"
+                    },
+                    {
+                        "moveNextWhen": "",
+                        "outcome": "That part does not require bandaging"
+                    }
+                ]
+            },
+            {
+                "command": "clean face with antiseptic",
+                "parse": [
+                    {
+                        "moveNextWhen": "You are no longer busy",
+                        "outcome": "You clean"
+                    },
+                    {
+                        "moveNextWhen": "",
+                        "outcome": "You don't see any"
+                    }
+                ]
+            },
+            {
+                "command": "bandage face with bandages",
+                "parse": [
+                    {
+                        "moveNextWhen": "You are no longer busy",
+                        "outcome": "You wrap a clean bandage around"
+                    },
+                    {
+                        "moveNextWhen": "",
+                        "outcome": "You don't see any"
+                    },
+                    {
+                        "moveNextWhen": "",
+                        "outcome": "That part does not require bandaging"
+                    }
+                ]
+            },
+            {
+                "command": "clean neck with antiseptic",
+                "parse": [
+                    {
+                        "moveNextWhen": "You are no longer busy",
+                        "outcome": "You clean"
+                    },
+                    {
+                        "moveNextWhen": "",
+                        "outcome": "You don't see any"
+                    }
+                ]
+            },
+            {
+                "command": "bandage neck with bandages",
+                "parse": [
+                    {
+                        "moveNextWhen": "You are no longer busy",
+                        "outcome": "You wrap a clean bandage around"
+                    },
+                    {
+                        "moveNextWhen": "",
+                        "outcome": "You don't see any"
+                    },
+                    {
+                        "moveNextWhen": "",
+                        "outcome": "That part does not require bandaging"
+                    }
+                ]
+            },
+            {
+                "command": "clean chest with antiseptic",
+                "parse": [
+                    {
+                        "moveNextWhen": "You are no longer busy",
+                        "outcome": "You clean"
+                    },
+                    {
+                        "moveNextWhen": "",
+                        "outcome": "You don't see any"
+                    }
+                ]
+            },
+            {
+                "command": "bandage chest with bandages",
+                "parse": [
+                    {
+                        "moveNextWhen": "You are no longer busy",
+                        "outcome": "You wrap a clean bandage around"
+                    },
+                    {
+                        "moveNextWhen": "",
+                        "outcome": "You don't see any"
+                    },
+                    {
+                        "moveNextWhen": "",
+                        "outcome": "That part does not require bandaging"
+                    }
+                ]
+            },
+            {
+                "command": "clean waist with antiseptic",
+                "parse": [
+                    {
+                        "moveNextWhen": "You are no longer busy",
+                        "outcome": "You clean"
+                    },
+                    {
+                        "moveNextWhen": "",
+                        "outcome": "You don't see any"
+                    }
+                ]
+            },
+            {
+                "command": "bandage waist with bandages",
+                "parse": [
+                    {
+                        "moveNextWhen": "You are no longer busy",
+                        "outcome": "You wrap a clean bandage around"
+                    },
+                    {
+                        "moveNextWhen": "",
+                        "outcome": "You don't see any"
+                    },
+                    {
+                        "moveNextWhen": "",
+                        "outcome": "That part does not require bandaging"
+                    }
+                ]
+            },
+            {
+                "command": "clean back with antiseptic",
+                "parse": [
+                    {
+                        "moveNextWhen": "You are no longer busy",
+                        "outcome": "You clean"
+                    },
+                    {
+                        "moveNextWhen": "",
+                        "outcome": "You don't see any"
+                    }
+                ]
+            },
+            {
+                "command": "bandage back with bandages",
+                "parse": [
+                    {
+                        "moveNextWhen": "You are no longer busy",
+                        "outcome": "You wrap a clean bandage around"
+                    },
+                    {
+                        "moveNextWhen": "",
+                        "outcome": "You don't see any"
+                    },
+                    {
+                        "moveNextWhen": "",
+                        "outcome": "That part does not require bandaging"
+                    }
+                ]
+            },
+            {
+                "command": "clean right shoulder with antiseptic",
+                "parse": [
+                    {
+                        "moveNextWhen": "You are no longer busy",
+                        "outcome": "You clean"
+                    },
+                    {
+                        "moveNextWhen": "",
+                        "outcome": "You don't see any"
+                    }
+                ]
+            },
+            {
+                "command": "bandage right shoulder with bandages",
+                "parse": [
+                    {
+                        "moveNextWhen": "You are no longer busy",
+                        "outcome": "You wrap a clean bandage around"
+                    },
+                    {
+                        "moveNextWhen": "",
+                        "outcome": "You don't see any"
+                    },
+                    {
+                        "moveNextWhen": "",
+                        "outcome": "That part does not require bandaging"
+                    }
+                ]
+            },
+            {
+                "command": "clean right arm with antiseptic",
+                "parse": [
+                    {
+                        "moveNextWhen": "You are no longer busy",
+                        "outcome": "You clean"
+                    },
+                    {
+                        "moveNextWhen": "",
+                        "outcome": "You don't see any"
+                    }
+                ]
+            },
+            {
+                "command": "bandage right arm with bandages",
+                "parse": [
+                    {
+                        "moveNextWhen": "You are no longer busy",
+                        "outcome": "You wrap a clean bandage around"
+                    },
+                    {
+                        "moveNextWhen": "",
+                        "outcome": "You don't see any"
+                    },
+                    {
+                        "moveNextWhen": "",
+                        "outcome": "That part does not require bandaging"
+                    }
+                ]
+            },
+            {
+                "command": "clean right hand with antiseptic",
+                "parse": [
+                    {
+                        "moveNextWhen": "You are no longer busy",
+                        "outcome": "You clean"
+                    },
+                    {
+                        "moveNextWhen": "",
+                        "outcome": "You don't see any"
+                    }
+                ]
+            },
+            {
+                "command": "bandage right hand with bandages",
+                "parse": [
+                    {
+                        "moveNextWhen": "You are no longer busy",
+                        "outcome": "You wrap a clean bandage around"
+                    },
+                    {
+                        "moveNextWhen": "",
+                        "outcome": "You don't see any"
+                    },
+                    {
+                        "moveNextWhen": "",
+                        "outcome": "That part does not require bandaging"
+                    }
+                ]
+            },
+            {
+                "command": "clean right thigh with antiseptic",
+                "parse": [
+                    {
+                        "moveNextWhen": "You are no longer busy",
+                        "outcome": "You clean"
+                    },
+                    {
+                        "moveNextWhen": "",
+                        "outcome": "You don't see any"
+                    }
+                ]
+            },
+            {
+                "command": "bandage right thigh with bandages",
+                "parse": [
+                    {
+                        "moveNextWhen": "You are no longer busy",
+                        "outcome": "You wrap a clean bandage around"
+                    },
+                    {
+                        "moveNextWhen": "",
+                        "outcome": "You don't see any"
+                    },
+                    {
+                        "moveNextWhen": "",
+                        "outcome": "That part does not require bandaging"
+                    }
+                ]
+            },
+            {
+                "command": "clean right shin with antiseptic",
+                "parse": [
+                    {
+                        "moveNextWhen": "You are no longer busy",
+                        "outcome": "You clean"
+                    },
+                    {
+                        "moveNextWhen": "",
+                        "outcome": "You don't see any"
+                    }
+                ]
+            },
+            {
+                "command": "bandage right shin with bandages",
+                "parse": [
+                    {
+                        "moveNextWhen": "You are no longer busy",
+                        "outcome": "You wrap a clean bandage around"
+                    },
+                    {
+                        "moveNextWhen": "",
+                        "outcome": "You don't see any"
+                    },
+                    {
+                        "moveNextWhen": "",
+                        "outcome": "That part does not require bandaging"
+                    }
+                ]
+            },
+            {
+                "command": "clean right foot with antiseptic",
+                "parse": [
+                    {
+                        "moveNextWhen": "You are no longer busy",
+                        "outcome": "You clean"
+                    },
+                    {
+                        "moveNextWhen": "",
+                        "outcome": "You don't see any"
+                    }
+                ]
+            },
+            {
+                "command": "bandage right foot with bandages",
+                "parse": [
+                    {
+                        "moveNextWhen": "You are no longer busy",
+                        "outcome": "You wrap a clean bandage around"
+                    },
+                    {
+                        "moveNextWhen": "",
+                        "outcome": "You don't see any"
+                    },
+                    {
+                        "moveNextWhen": "",
+                        "outcome": "That part does not require bandaging"
+                    }
+                ]
+            },
+            {
+                "command": "clean left shoulder with antiseptic",
+                "parse": [
+                    {
+                        "moveNextWhen": "You are no longer busy",
+                        "outcome": "You clean"
+                    },
+                    {
+                        "moveNextWhen": "",
+                        "outcome": "You don't see any"
+                    }
+                ]
+            },
+            {
+                "command": "bandage left shoulder with bandages",
+                "parse": [
+                    {
+                        "moveNextWhen": "You are no longer busy",
+                        "outcome": "You wrap a clean bandage around"
+                    },
+                    {
+                        "moveNextWhen": "",
+                        "outcome": "You don't see any"
+                    },
+                    {
+                        "moveNextWhen": "",
+                        "outcome": "That part does not require bandaging"
+                    }
+                ]
+            },
+            {
+                "command": "clean left arm with antiseptic",
+                "parse": [
+                    {
+                        "moveNextWhen": "You are no longer busy",
+                        "outcome": "You clean"
+                    },
+                    {
+                        "moveNextWhen": "",
+                        "outcome": "You don't see any"
+                    }
+                ]
+            },
+            {
+                "command": "bandage left arm with bandages",
+                "parse": [
+                    {
+                        "moveNextWhen": "You are no longer busy",
+                        "outcome": "You wrap a clean bandage around"
+                    },
+                    {
+                        "moveNextWhen": "",
+                        "outcome": "You don't see any"
+                    },
+                    {
+                        "moveNextWhen": "",
+                        "outcome": "That part does not require bandaging"
+                    }
+                ]
+            },
+            {
+                "command": "clean left hand with antiseptic",
+                "parse": [
+                    {
+                        "moveNextWhen": "You are no longer busy",
+                        "outcome": "You clean"
+                    },
+                    {
+                        "moveNextWhen": "",
+                        "outcome": "You don't see any"
+                    }
+                ]
+            },
+            {
+                "command": "bandage left hand with bandages",
+                "parse": [
+                    {
+                        "moveNextWhen": "You are no longer busy",
+                        "outcome": "You wrap a clean bandage around"
+                    },
+                    {
+                        "moveNextWhen": "",
+                        "outcome": "You don't see any"
+                    },
+                    {
+                        "moveNextWhen": "",
+                        "outcome": "That part does not require bandaging"
+                    }
+                ]
+            },
+            {
+                "command": "clean left thigh with antiseptic",
+                "parse": [
+                    {
+                        "moveNextWhen": "You are no longer busy",
+                        "outcome": "You clean"
+                    },
+                    {
+                        "moveNextWhen": "",
+                        "outcome": "You don't see any"
+                    }
+                ]
+            },
+            {
+                "command": "bandage left thigh with bandages",
+                "parse": [
+                    {
+                        "moveNextWhen": "You are no longer busy",
+                        "outcome": "You wrap a clean bandage around"
+                    },
+                    {
+                        "moveNextWhen": "",
+                        "outcome": "You don't see any"
+                    },
+                    {
+                        "moveNextWhen": "",
+                        "outcome": "That part does not require bandaging"
+                    }
+                ]
+            },
+            {
+                "command": "clean left shin with antiseptic",
+                "parse": [
+                    {
+                        "moveNextWhen": "You are no longer busy",
+                        "outcome": "You clean"
+                    },
+                    {
+                        "moveNextWhen": "",
+                        "outcome": "You don't see any"
+                    }
+                ]
+            },
+            {
+                "command": "bandage left shin with bandages",
+                "parse": [
+                    {
+                        "moveNextWhen": "You are no longer busy",
+                        "outcome": "You wrap a clean bandage around"
+                    },
+                    {
+                        "moveNextWhen": "",
+                        "outcome": "You don't see any"
+                    },
+                    {
+                        "moveNextWhen": "",
+                        "outcome": "That part does not require bandaging"
+                    }
+                ]
+            },
+            {
+                "command": "clean left foot with antiseptic",
+                "parse": [
+                    {
+                        "moveNextWhen": "You are no longer busy",
+                        "outcome": "You clean"
+                    },
+                    {
+                        "moveNextWhen": "",
+                        "outcome": "You don't see any"
+                    }
+                ]
+            },
+            {
+                "command": "bandage left foot with bandages",
+                "parse": [
+                    {
+                        "moveNextWhen": "You are no longer busy",
+                        "outcome": "You wrap a clean bandage around"
+                    },
+                    {
+                        "moveNextWhen": "",
+                        "outcome": "You don't see any"
+                    },
+                    {
+                        "moveNextWhen": "",
+                        "outcome": "That part does not require bandaging"
+                    }
+                ]
+            },
+            {
+                "command": "say all done",
+                "parse": {
+                    "moveNextWhen": "You are no longer busy",
+                    "outcome": "All finished"
+                }
+            }
+        ],
+        "scriptFriendlyName": "Clean and Bandage",
+        "scriptName": "cleanandbanadage",
+        "scriptType": "nonCom"
+    },

@@ -1,0 +1,39 @@
+    {
+        "addAttack": false,
+        "commandList": [
+            {
+                "command": "flick",
+                "parse": {
+                    "moveNextWhen": "You are no longer busy",
+                    "outcome": "Flicking your wrist and forearm,"
+                }
+            },
+            {
+                "command": "facestrike",
+                "parse": {
+                    "moveNextWhen": "You are no longer busy",
+                    "outcome": "With a deft wrist motion, you"
+                }
+            },
+            {
+                "command": "psnap",
+                "parse": {
+                    "moveNextWhen": "You are no longer busy",
+                    "outcome": "You curl your"
+                }
+            },
+            {
+                "command": "cslash",
+                "parse": {
+                    "moveNextWhen": "You are no longer busy",
+                    "outcome": "You expand your"
+                }
+            }
+        ],
+        "scriptFriendlyName": "Whips Humans",
+        "scriptName": "whipshumans",
+        "scriptType": "combat",
+        "shouldKill": true,
+        "shouldKillParse": "You strangle",
+        "stanceCommand": "scircle"
+    },

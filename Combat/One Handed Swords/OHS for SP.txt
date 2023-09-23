@@ -1,0 +1,79 @@
+    {
+        "addAttack": false,
+        "commandList": [
+             {
+                "command": "slash",
+                "parse": {
+                    "moveNextWhen": "You are no longer busy",
+                    "outcome": "You slash horizontally"
+                }
+            },
+            {
+                "command": "edgebash",
+                "parse": {
+                    "moveNextWhen": "You are no longer busy",
+                    "outcome": "Tilting your shield forward"
+                }
+            },
+            {
+                "command": "stab",
+                "parse": {
+                    "moveNextWhen": "You are no longer busy",
+                    "outcome": "You make a quick stabbing motion"
+                }
+            },
+            {
+                "command": "swat",
+                "parse": {
+                    "moveNextWhen": "You are no longer busy",
+                    "outcome": "Using the flat of your"
+                }
+            },
+            {
+                "command": "supbash",
+                "parse": [
+                    {
+                        "moveNextWhen": "You are no longer busy",
+                        "outcome": "You bash upward at a"
+                    },
+                    {
+                        "moveNextWhen": "You are no longer busy",
+                        "outcome": "You miss a"
+                    }
+                ]
+            },
+            {
+                "command": "chop",
+                "parse": {
+                    "moveNextWhen": "You are no longer busy",
+                    "outcome": "You bring down your"
+                }
+            },
+            {
+                "command": "sbash",
+                "parse": [
+                    {
+                        "moveNextWhen": "You are no longer busy",
+                        "outcome": "You bash a"
+                    },
+                    {
+                        "moveNextWhen": "You are no longer busy",
+                        "outcome": "You miss a"
+                    }
+                ]
+            },
+            {
+                "command": "jab",
+                "parse": {
+                    "moveNextWhen": "You are no longer busy",
+                    "outcome": "You jab at a"
+                }
+            }
+        ],
+        "scriptFriendlyName": "Avros Shield Full Rotations",
+        "scriptName": "avrosfull",
+        "scriptType": "combat",
+        "shouldKill": true,
+        "shouldKillParse": "You slit a",
+        "stanceCommand": "duel"
+    },

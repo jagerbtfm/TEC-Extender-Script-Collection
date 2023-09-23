@@ -1,0 +1,28 @@
+   {
+        "commandList": [
+            {
+                "command": "get raw from my fade",
+                "parse": {
+                    "moveNextWhen": "",
+                    "outcome": "You take a"
+                }
+            },
+            {
+                "command": "sear meat",
+                "parse": {
+                    "moveNextWhen": "You are no longer busy",
+                    "outcome": "It appears to be"
+                }
+            },
+            {
+                "command": "put sear in 4 wag",
+                "parse": {
+                    "moveNextWhen": "",
+                    "outcome": "You put a seared"
+                }
+            }
+        ],
+        "scriptFriendlyName": "Cooking",
+        "scriptName": "cooking",
+        "scriptType": "nonCom"
+    },

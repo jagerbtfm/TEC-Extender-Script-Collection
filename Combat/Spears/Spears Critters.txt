@@ -1,0 +1,53 @@
+    {
+        "addAttack": false,
+        "commandList": [
+            {
+                "command": "jab",
+                "parse": {
+                    "moveNextWhen": "You are no longer busy",
+                    "outcome": "You jab at a"
+                }
+            },
+            {
+                "command": "slash",
+                "parse": {
+                    "moveNextWhen": "You are no longer busy",
+                    "outcome": "You slash"
+                }
+            },
+            {
+                "command": "smash",
+                "parse": {
+                    "moveNextWhen": "You are no longer busy",
+                    "outcome": "you swing the butt around"
+                }
+            },
+            {
+                "command": "sstab",
+                "parse": {
+                    "moveNextWhen": "You are no longer busy",
+                    "outcome": "stepping forward aggressively,"
+                }
+            },
+            {
+                "command": "upslash",
+                "parse": {
+                    "moveNextWhen": "You are no longer busy",
+                    "outcome": "sweep the blade of your"
+                }
+            },
+            {
+                "command": "stab",
+                "parse": {
+                    "moveNextWhen": "You are no longer busy",
+                    "outcome": "You make a quick"
+                }
+            }
+        ],
+        "scriptFriendlyName": "Spears Critters",
+        "scriptName": "spearscritters",
+        "scriptType": "combat",
+        "shouldKill": true,
+        "shouldKillParse": "You thrust your",
+        "stanceCommand": "scorpion"
+    },

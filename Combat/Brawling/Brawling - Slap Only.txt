@@ -1,0 +1,24 @@
+    {
+        "addAttack": false,
+        "commandList": [
+            {
+                "command": "hardslap",
+                "parse": [
+                    {
+                        "moveNextWhen": "You are no longer busy",
+                        "outcome": "You wind up"
+                    },
+                    {
+                        "moveNextWhen": "You are no longer busy",
+                        "outcome": "You take a swing"
+                    }
+                ]
+            }
+        ],
+        "scriptFriendlyName": "Brawling Slap Only",
+        "scriptName": "brawlslap",
+        "scriptType": "combat",
+        "shouldKill": true,
+        "shouldKillParse": "You strangle",
+        "stanceCommand": ""
+    },

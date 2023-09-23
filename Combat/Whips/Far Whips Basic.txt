@@ -1,0 +1,61 @@
+  {
+        "addAttack": false,
+        "commandList": [
+            {
+                "command": "scou",
+                "parse": {
+                    "moveNextWhen": "You are no longer busy",
+                    "outcome": "You bring your arm forward, back"
+                }
+            },
+            {
+                "command": "scsc",
+                "parse": {
+                    "moveNextWhen": "You are no longer busy",
+                    "outcome": "your head into a series of diagonal"
+                }
+                },
+            {
+                "command": "strike",
+                "parse": {
+                    "moveNextWhen": "You are no longer busy",
+                    "outcome": "With a fluid back and forth motion, you strike at"
+                }
+            },
+            {
+                "command": "flick",
+                "parse": {
+                    "moveNextWhen": "You are no longer busy",
+                    "outcome": "Flicking your wrist and forearm"
+                }
+            },
+            {
+                "command": "cslash",
+                "parse": {
+                    "moveNextWhen": "You are no longer busy",
+                    "outcome": "You expand your"
+                }
+            },
+            {
+                "command": "psnap",
+                "parse": {
+                    "moveNextWhen": "You are no longer busy",
+                    "outcome": "You curl your wrist into a tight loop"
+                }
+            },
+            {
+                "command": "facestrike",
+                "parse": {
+                    "moveNextWhen": "You are no longer busy",
+                    "outcome": "You snap your"
+                }
+            }
+        ],
+        "scriptFriendlyName": "Far Whips Basic",
+        "scriptName": "farwhips",
+        "scriptType": "combat",
+        "shouldKill": true,
+        "shouldKillParse": "You wrap your",
+        "stanceCommand": ""
+    },
+

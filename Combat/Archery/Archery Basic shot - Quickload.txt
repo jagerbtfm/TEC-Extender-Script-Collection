@@ -1,0 +1,40 @@
+    {
+        "addAttack": false,
+        "commandList": [
+            {
+                "command": "quickload bow",
+                "parse": [
+                    {
+                        "moveNextNow": true,
+                        "outcome": "is already loaded"
+                    },
+                    {
+                        "moveNextWhen": "You are no longer busy",
+                        "outcome": "With a quick fluid motion you load"
+                    }
+                ],
+                "targetRequired": false
+            },
+            {
+                "command": "shoot",
+                "parse": [
+                    {
+                        "moveNextNow": true,
+                        "outcome": "isn't loaded"
+                    },
+                    {
+                        "moveNextWhen": "You are no longer busy",
+                        "outcome": "You fire a"
+                    }
+                ]
+            }
+        ],
+        "continueOnWalkIn": true,
+        "scriptFriendlyName": "Archery Basic Shot- Quick Load",
+        "scriptName": "archBasicquick",
+        "scriptType": "combat",
+        "shouldKill": true,
+        "shouldKillParse": "you twist sharply",
+        "stanceCommand": "",
+        "weaponItemName": ""
+    },

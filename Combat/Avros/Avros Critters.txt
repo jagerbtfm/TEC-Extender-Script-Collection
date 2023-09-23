@@ -1,0 +1,25 @@
+    {
+        "addAttack": false,
+        "commandList": [
+            {
+                "command": "sslash",
+                "parse": {
+                    "moveNextWhen": "You are no longer busy",
+                    "outcome": "suddenly with your"
+                }
+            },
+            {
+                "command": "needle",
+                "parse": {
+                    "moveNextWhen": "You are no longer busy",
+                    "outcome": "you steadily step sideways towards "
+                }
+            }
+        ],
+        "scriptFriendlyName": "Avros Critter",
+        "scriptName": "avrossslasho",
+        "scriptType": "combat",
+        "shouldKill": true,
+        "shouldKillParse": "You slit a",
+        "stanceCommand": "duel"
+    },

@@ -1,0 +1,28 @@
+    {
+        "commandList": [
+            {
+                "command": "get raw",
+                "parse": {
+                    "moveNextWhen": "",
+                    "outcome": "You take a"
+                }
+            },
+            {
+                "command": "sear raw",
+                "parse": {
+                    "moveNextWhen": "You are no longer busy",
+                    "outcome": "It appears to be"
+                }
+            },
+            {
+                "command": "put sear in wagon",
+                "parse": {
+                    "moveNextWhen": "",
+                    "outcome": "You put a seared"
+                }
+            }
+        ],
+        "scriptFriendlyName": "Codex Copy",
+        "scriptName": "codexcopy",
+        "scriptType": "nonCom"
+    },

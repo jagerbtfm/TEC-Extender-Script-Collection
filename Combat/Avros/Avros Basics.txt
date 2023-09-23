@@ -1,0 +1,101 @@
+ {
+        "addAttack": false,
+        "commandList": [
+            {
+                "command": "sslash",
+                "parse": {
+                    "moveNextWhen": "You are no longer busy",
+                    "outcome": "suddenly with your"
+                }
+            },
+            {
+                "command": "smash",
+                "parse": [
+                    {
+                        "moveNextWhen": "You are no longer busy",
+                        "outcome": "Chopping quickly with your"
+                    },
+                    {
+                        "moveNextWhen": "",
+                        "outcome": "You can only use this maneuver against an armed opponent"
+                    },
+                    {
+                        "moveNextWhen": "",
+                        "outcome": "must be standing"
+                    },
+                    {
+                        "moveNextWhen": "You are no longer busy",
+                        "outcome": "You bring your"
+                    }
+                ]
+            },
+            {
+                "command": "needle",
+                "parse": {
+                    "moveNextWhen": "You are no longer busy",
+                    "outcome": "you steadily step sideways towards "
+                }
+            },
+            {
+                "command": "smash",
+                "parse": [
+                    {
+                        "moveNextWhen": "You are no longer busy",
+                        "outcome": "Chopping quickly with your"
+                    },
+                    {
+                        "moveNextWhen": "",
+                        "outcome": "You can only use this maneuver against an armed opponent"
+                    },
+                    {
+                        "moveNextWhen": "",
+                        "outcome": "must be standing"
+                    },
+                    {
+                        "moveNextWhen": "You are no longer busy",
+                        "outcome": "You bring your"
+                    }
+                ]
+            },
+            {
+                "command": "edgebash",
+                "parse": {
+                    "moveNextWhen": "You are no longer busy",
+                    "outcome": "Tilting your shield forward"
+                }
+            },
+            {
+                "command": "whirl",
+                "parse": {
+                    "moveNextWhen": "You are no longer busy",
+                    "outcome": "you whirl"
+                }
+            },
+            {
+                "command": "rstrike",
+                "parse": {
+                    "moveNextWhen": "You are no longer busy",
+                    "outcome": "With blinding speed, you chop down"
+                }
+            },
+            {
+                "command": "supbash",
+                "parse": [
+                    {
+                        "moveNextWhen": "You are no longer busy",
+                        "outcome": "You bash upward at a"
+                    },
+                    {
+                        "moveNextWhen": "You are no longer busy",
+                        "outcome": "You miss a"
+                    }
+                ]
+            }
+        ],
+        "scriptFriendlyName": "Avros Basics",
+        "scriptName": "avrosbasics",
+        "scriptType": "combat",
+        "shouldKill": true,
+        "shouldKillParse": "You slit a",
+        "stanceCommand": "duel"
+    },

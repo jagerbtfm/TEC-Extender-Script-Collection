@@ -1,0 +1,30 @@
+  {
+        "commandList": [
+           {
+                "command": "get <target> from corpse",
+                "parse": {
+                    {
+                        "moveNextWhen": "",
+                        "outcome": "You don't see a"
+                    }
+            },
+            {
+                "command": "get <target> from 2 corpse",
+                "parse": {
+                    {
+                        "moveNextWhen": "",
+                        "outcome": "You don't see a"
+                    }
+            },
+            {
+                "command": "get <target> from X corpse",
+                "parse": {
+                    "moveNextWhen": "You are no longer busy",
+                    "outcome": "You don't see a"
+                }
+            }
+        ],
+        "scriptFriendlyName": "Loot from corpses",
+        "scriptName": "loottarget",
+        "scriptType": "nonCom"
+    },

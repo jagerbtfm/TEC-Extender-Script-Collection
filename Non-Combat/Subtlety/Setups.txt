@@ -1,0 +1,35 @@
+     {
+        "commandList": [
+            {
+                "command": "coin",
+                "parse": {
+                    "moveNextWhen": "You are no longer busy",
+                    "outcome": "You strain your ear"
+                }
+            },
+            {
+                "command": "combat",
+                "parse": [
+                    {
+                        "moveNextWhen": "You are no longer busy",
+                        "outcome": "in its use"
+                    },
+                    {
+                        "moveNextWhen": "You are no longer busy",
+                        "outcome": "has been considered"
+                    },
+                    {
+                        "moveNextWhen": "You are no longer busy",
+                        "outcome": "looks to be"
+                    },
+                    {
+                        "moveNextWhen": "You are no longer busy",
+                        "outcome": "You can't pick up enough"
+                    }
+                ]
+            }
+        ],
+        "scriptFriendlyName": "Setups",
+        "scriptName": "setups",
+        "scriptType": "nonCom"
+    },

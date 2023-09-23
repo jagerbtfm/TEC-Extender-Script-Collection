@@ -1,0 +1,52 @@
+      {
+        "addAttack": false,
+        "commandList": [
+            {
+                "command": "bash",
+                "parse": {
+                    "moveNextWhen": "You are no longer busy",
+                    "outcome": "Using the blunt end of your"
+                }
+            },
+            {
+                "command": "jab",
+                "parse": {
+                    "moveNextWhen": "You are no longer busy",
+                    "outcome": "You tentatively jab"
+                }
+            },
+            {
+                "command": "slash",
+                "parse": {
+                    "moveNextWhen": "You are no longer busy",
+                    "outcome": "You slash horizontally"
+                }
+            },
+            {
+                "command": "qrake",
+                "parse": [
+                    {
+                        "moveNextWhen": "You are no longer busy",
+                        "outcome": "you quickly rake"
+                    },
+                    {
+                        "moveNextWhen": "You are no longer busy",
+                        "outcome": ", you make a raking motion at a"
+                    }
+                ]
+            },
+            {
+                "command": "stab",
+                "parse": {
+                    "moveNextWhen": "You are no longer busy",
+                    "outcome": "You make a quick stabbing motion"
+                }
+            }
+        ],
+        "scriptFriendlyName": "Trident Basic",
+        "scriptName": "tridentbasic",
+        "scriptType": "combat",
+        "shouldKill": true,
+        "shouldKillParse": "You thrust your",
+        "stanceCommand": "harpoon"
+    },

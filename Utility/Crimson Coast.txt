@@ -1,0 +1,84 @@
+    {
+        "commandList": [
+            {
+                "command": "open crimson",
+                "parse": {
+                    "moveNextWhen": "",
+                    "outcome": "You open a codex"
+                }
+            },
+            {
+                "command": "read codex",
+                "parse": {
+                    "moveNextWhen": "You are no longer busy",
+                    "outcome": ""
+                }
+            },
+            {
+                "command": "turn codex to 2",
+                "parse": {
+                    "moveNextWhen": "",
+                    "outcome": "You flip to the next page"
+                }
+            },
+            {
+                "command": "read codex",
+                "parse": {
+                    "moveNextWhen": "You are no longer busy",
+                    "outcome": ""
+                }
+            },
+            {
+                "command": "turn codex to 3",
+                "parse": {
+                    "moveNextWhen": "",
+                    "outcome": "You flip to the next page"
+                }
+            },
+            {
+                "command": "read codex",
+                "parse": {
+                    "moveNextWhen": "You are no longer busy",
+                    "outcome": ""
+                }
+            },
+            {
+                "command": "turn codex to 4",
+                "parse": {
+                    "moveNextWhen": "",
+                    "outcome": "You flip to the next page"
+                }
+            },
+            {
+                "command": "read codex",
+                "parse": {
+                    "moveNextWhen": "You are no longer busy",
+                    "outcome": ""
+                }
+            },
+            {
+                "command": "turn codex to 5",
+                "parse": {
+                    "moveNextWhen": "",
+                    "outcome": "You flip to the next page"
+                }
+            },
+            {
+                "command": "read codex",
+                "parse": {
+                    "moveNextWhen": "You are no longer busy",
+                    "outcome": ""
+                }
+            },
+            {
+                "command": "close codex",
+                "parse": {
+                    "moveNextWhen": "",
+                    "outcome": "You close a codex"
+                }
+            }
+        ],
+        "scriptFriendlyName": "Crimson Coast Reading",
+        "scriptName": "ccreading",
+        "scriptType": "nonCom"
+    },

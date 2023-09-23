@@ -1,0 +1,19 @@
+ {
+                "command": "MOVE",
+                "parse": [
+                    {
+                        "moveNextWhen": "You are no longer busy",
+                        "outcome": "Twisting the angle of your"
+                    },
+                    {
+                        "moveNextWhen": "You are no longer busy",
+                        "outcome": "YOU WHATEVER"
+                    },
+                    {
+                        "moveNextWhen": "",
+                        "outcome": "This maneuver needs to follow"
+                    }
+                ]
+            },
+
+

@@ -1,0 +1,94 @@
+     {
+        "addAttack": false,
+        "commandList": [
+            {
+                "command": "swat",
+                "parse": {
+                    "moveNextWhen": "You are no longer busy",
+                    "outcome": "you swat at"
+                }
+            },
+            {
+                "command": "jab",
+                "parse": {
+                    "moveNextWhen": "You are no longer busy",
+                    "outcome": "You jab"
+                }
+            },
+            {
+                "command": "side",
+                "parse": {
+                    "moveNextWhen": "You are no longer busy",
+                    "outcome": "horizontal, you let loose a quick"
+                }
+            },
+            {
+                "command": "spinstrike",
+                "parse": {
+                    "moveNextWhen": "You are no longer busy",
+                    "outcome": "Stepping slightly to the side, you"
+                }
+            },
+            {
+                "command": "sweep",
+                "parse": [
+                    {
+                        "moveNextWhen": "",
+                        "outcome": "You can't trip"
+                    },
+                    {
+                        "moveNextWhen": "",
+                        "outcome": "must be standing"
+                    },
+                    {
+                        "moveNextWhen": "",
+                        "outcome": "in a downward sweeping arc aimed at a"
+                    },
+                    {
+                        "moveNextWhen": "You are no longer busy",
+                        "outcome": "you bring your"
+                    }
+                ]
+            },
+            {
+                "command": "triplebash",
+                "parse": [
+                    {
+                        "moveNextWhen": "You are no longer busy",
+                        "outcome": "Bashing downward with your"
+                    },
+                    {
+                        "moveNextWhen": "You are no longer busy",
+                        "outcome": "Bashing downwards with your"
+                    }
+                ]
+            },
+            {
+                "command": "smash",
+                "parse": {
+                    "moveNextWhen": "You are no longer busy",
+                    "outcome": "you step forward and pivot slightly"
+                }
+            },
+            {
+                "command": "snaps",
+                "parse": {
+                    "moveNextWhen": "You are no longer busy",
+                    "outcome": "you chop down at"
+                }
+            },
+            {
+                "command": "strike",
+                "parse": {
+                    "moveNextWhen": "You are no longer busy",
+                    "outcome": "you bring the end of"
+                }
+            }
+        ],
+        "scriptFriendlyName": "Staves Humans",
+        "scriptName": "staveshumans",
+        "scriptType": "combat",
+        "shouldKill": true,
+        "shouldKillParse": "You bash a",
+        "stanceCommand": "skirmish"
+    },

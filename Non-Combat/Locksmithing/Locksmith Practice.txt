@@ -1,0 +1,53 @@
+       {
+        "commandList": [
+            {
+                "command": "recall lock tumbler",
+                "parse": [
+                    {
+                        "moveNextWhen": "You are no longer busy",
+                        "outcome": "The lock mechanism consists of"
+                    },
+                    {
+                        "moveNextWhen": "You are no longer busy",
+                        "outcome": "Try as you might"
+                    }
+                ]
+            },
+            {
+                "command": "study egg",
+                "parse": {
+                    "moveNextWhen": "You are no longer busy",
+                    "outcome": "You carefully study"
+                }
+            },
+            {
+                "command": "lock egg with lockpick",
+                "parse": [
+                    {
+                        "moveNextWhen": "You are no longer busy",
+                        "outcome": "You hear a click as a tumbler mechanism closes"
+                    },
+                    {
+                        "moveNextWhen": "",
+                        "outcome": "It is already locked"
+                    }
+                ]
+            },
+            {
+                "command": "unlock egg with lockpick",
+                "parse": [
+                    {
+                        "moveNextWhen": "You are no longer busy",
+                        "outcome": "You hear a click as a tumbler mechanism releases"
+                    },
+                    {
+                        "moveNextWhen": "",
+                        "outcome": "It is already unlocked"
+                    }
+                ]
+            }
+        ],
+        "scriptFriendlyName": "Locksmith Practice",
+        "scriptName": "praclock",
+        "scriptType": "nonCom"
+    },

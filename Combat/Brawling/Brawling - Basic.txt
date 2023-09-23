@@ -1,0 +1,64 @@
+     {
+        "addAttack": false,
+        "commandList": [
+            {
+                "command": "kick",
+                "parse": {
+                    "moveNextWhen": "You are no longer busy",
+                    "outcome": "You kick your leg"
+                }
+            },
+            {
+                "command": "hardslap",
+                "parse": [
+                    {
+                        "moveNextWhen": "You are no longer busy",
+                        "outcome": "You wind up"
+                    },
+                    {
+                        "moveNextWhen": "You are no longer busy",
+                        "outcome": "You take a swing"
+                    }
+                ]
+            },
+            {
+                "command": "punch",
+                "parse": {
+                    "moveNextWhen": "You are no longer busy",
+                    "outcome": "You punch at a"
+                }
+            },
+            {
+                "command": "stomp",
+                "parse": [
+                    {
+                        "moveNextWhen": "You are no longer busy",
+                        "outcome": "You stomp your foot"
+                    },
+                    {
+                        "moveNextWhen": "You are no longer busy",
+                        "outcome": "You stomp at a"
+                    }
+                ]
+            },
+            {
+                "command": "kneebreak",
+                "parse": [
+                    {
+                        "moveNextWhen": "You are no longer busy",
+                        "outcome": "You kick a"
+                    },
+                    {
+                        "moveNextWhen": "You are no longer busy",
+                        "outcome": "You try to kick"
+                    }
+                ]
+            }
+        ],
+        "scriptFriendlyName": "Brawling Basic",
+        "scriptName": "brawlbasic",
+        "scriptType": "combat",
+        "shouldKill": true,
+        "shouldKillParse": "You strangle",
+        "stanceCommand": ""
+    },

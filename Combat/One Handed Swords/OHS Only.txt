@@ -1,0 +1,46 @@
+    {
+        "addAttack": false,
+        "commandList": [
+            {
+                "command": "slash",
+                "parse": {
+                    "moveNextWhen": "You are no longer busy",
+                    "outcome": "You slash horizontally"
+                }
+            },
+            {
+                "command": "stab",
+                "parse": {
+                    "moveNextWhen": "You are no longer busy",
+                    "outcome": "You make a quick stabbing motion"
+                }
+            },
+            {
+                "command": "swat",
+                "parse": {
+                    "moveNextWhen": "You are no longer busy",
+                    "outcome": "Using the flat of your"
+                }
+            },
+            {
+                "command": "chop",
+                "parse": {
+                    "moveNextWhen": "You are no longer busy",
+                    "outcome": "You bring down your"
+                }
+            },
+            {
+                "command": "jab",
+                "parse": {
+                    "moveNextWhen": "You are no longer busy",
+                    "outcome": "You jab at a"
+                }
+            }
+        ],
+        "scriptFriendlyName": "OHS Only",
+        "scriptName": "OHSonly",
+        "scriptType": "combat",
+        "shouldKill": true,
+        "shouldKillParse": "You slit a",
+        "stanceCommand": ""
+    },

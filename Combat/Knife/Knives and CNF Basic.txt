@@ -1,0 +1,71 @@
+ {
+        "addAttack": false,
+        "commandList": [
+            {
+                "command": "triplecut",
+                "parse": [
+                    {
+                        "moveNextWhen": "You are no longer busy",
+                        "outcome": "In a dazzling blur of movement, you grip your"
+                    },
+                    {
+                        "moveNextWhen": "You are no longer busy",
+                        "outcome": "You make a quick slash at"
+                    }
+                ]
+            },
+            {
+                "command": "doublecut",
+                "parse": [
+                    {
+                        "moveNextWhen": "You are no longer busy",
+                        "outcome": "You tightly grip your"
+                    },
+                    {
+                        "moveNextWhen": "You are no longer busy",
+                        "outcome": "You make a quick slash at"
+                    }
+                ]
+            },
+            {
+                "command": "whirls",
+                "parse": {
+                    "moveNextWhen": "You are no longer busy",
+                    "outcome": "You take a step back"
+                }
+            },
+            {
+                "command": "bslash",
+                "parse": [
+                    {
+                        "moveNextWhen": "You are no longer busy",
+                        "outcome": "You step forward with your rear foot"
+                    },
+                    {
+                        "moveNextWhen": "You are no longer busy",
+                        "outcome": "You pivot slightly, sending a quick"
+                    }
+                ]
+            },
+            {
+                "command": "mslash",
+                "parse": {
+                    "moveNextWhen": "You are no longer busy",
+                    "outcome": "You pivot slightly"
+                }
+            },
+            {
+                "command": "flash",
+                "parse": {
+                    "moveNextWhen": "You are no longer busy",
+                    "outcome": "You step towards a"
+                }
+            }
+        ],
+        "scriptFriendlyName": "Knives and CNF Basic",
+        "scriptName": "knivecnfbasic",
+        "scriptType": "combat",
+        "shouldKill": true,
+        "shouldKillParse": "You slit a",
+        "stanceCommand": "cnf"
+    },

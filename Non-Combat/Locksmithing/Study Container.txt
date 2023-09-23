@@ -1,0 +1,21 @@
+  {
+        "commandList": [
+            {
+                "command": "study",
+                "parse": {
+                    "moveNextWhen": "You are no longer busy",
+                    "outcome": "You carefully"
+                }
+            },
+            {
+                "command": "unlock <target> with lockpick",
+                "parse": {
+                    "moveNextWhen": "You are no longer busy",
+                    "outcome": "You are unable"
+                }
+            }
+        ],
+        "scriptFriendlyName": "Study Container",
+        "scriptName": "studycontainere",
+        "scriptType": "nonCom"
+    },

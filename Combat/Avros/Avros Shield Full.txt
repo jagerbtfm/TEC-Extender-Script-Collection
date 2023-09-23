@@ -1,0 +1,167 @@
+    {
+        "addAttack": false,
+        "commandList": [
+             {
+                "command": "slash",
+                "parse": {
+                    "moveNextWhen": "You are no longer busy",
+                    "outcome": "You slash horizontally"
+                }
+            },
+            {
+                "command": "stomp",
+                "parse": [
+                    {
+                        "moveNextWhen": "You are no longer busy",
+                        "outcome": "You stomp your foot"
+                    },
+                    {
+                        "moveNextWhen": "You are no longer busy",
+                        "outcome": "You stomp at a"
+                    }
+                ]
+            },
+            {
+                "command": "edgebash",
+                "parse": {
+                    "moveNextWhen": "You are no longer busy",
+                    "outcome": "Tilting your shield forward"
+                }
+            },
+            {
+                "command": "smash",
+                "parse": [
+                    {
+                        "moveNextWhen": "You are no longer busy",
+                        "outcome": "Chopping quickly with your"
+                    },
+                    {
+                        "moveNextWhen": "",
+                        "outcome": "You can only use this maneuver against an armed opponent"
+                    },
+                    {
+                        "moveNextWhen": "",
+                        "outcome": "must be standing"
+                    },
+                    {
+                        "moveNextWhen": "You are no longer busy",
+                        "outcome": "You bring your"
+                    }
+                ]
+            },
+            {
+                "command": "needle",
+                "parse": {
+                    "moveNextWhen": "You are no longer busy",
+                    "outcome": "you steadily step sideways towards "
+                }
+            },
+            {
+                "command": "sslash",
+                "parse": {
+                    "moveNextWhen": "You are no longer busy",
+                    "outcome": "suddenly with your"
+                }
+            },
+            {
+                "command": "supbash",
+                "parse": [
+                    {
+                        "moveNextWhen": "You are no longer busy",
+                        "outcome": "You bash upward at a"
+                    },
+                    {
+                        "moveNextWhen": "You are no longer busy",
+                        "outcome": "You miss a"
+                    }
+                ]
+            },
+            {
+                "command": "whirl",
+                "parse": {
+                    "moveNextWhen": "You are no longer busy",
+                    "outcome": "you whirl"
+                }
+            },
+            {
+                "command": "kneebreak",
+                "parse": [
+                    {
+                        "moveNextWhen": "You are no longer busy",
+                        "outcome": "You kick a"
+                    },
+                    {
+                        "moveNextWhen": "You are no longer busy",
+                        "outcome": "You try to kick"
+                    }
+                ]
+            },
+            {
+                "command": "rstrike",
+                "parse": {
+                    "moveNextWhen": "You are no longer busy",
+                    "outcome": "With blinding speed, you chop down"
+                }
+            },
+            {
+                "command": "stab",
+                "parse": {
+                    "moveNextWhen": "You are no longer busy",
+                    "outcome": "You make a quick stabbing motion"
+                }
+            },
+            {
+                "command": "swat",
+                "parse": {
+                    "moveNextWhen": "You are no longer busy",
+                    "outcome": "Using the flat of your"
+                }
+            },
+            {
+                "command": "sbash",
+                "parse": [
+                    {
+                        "moveNextWhen": "You are no longer busy",
+                        "outcome": "You bash a"
+                    },
+                    {
+                        "moveNextWhen": "You are no longer busy",
+                        "outcome": "You miss a"
+                    }
+                ]
+            },
+            {
+                "command": "chop",
+                "parse": {
+                    "moveNextWhen": "You are no longer busy",
+                    "outcome": "You bring down your"
+                }
+            },
+            {
+                "command": "fthrust",
+                "parse": [
+                    {
+                        "moveNextWhen": "You are no longer busy",
+                        "outcome": "You push forward with the center"
+                    },
+                    {
+                        "moveNextWhen": "",
+                        "outcome": "This attack can only be used against someone wielding a weapon"
+                    }
+                ]
+            },
+            {
+                "command": "jab",
+                "parse": {
+                    "moveNextWhen": "You are no longer busy",
+                    "outcome": "You jab at a"
+                }
+            }
+        ],
+        "scriptFriendlyName": "Avros Shield Full Rotations",
+        "scriptName": "avrosfull",
+        "scriptType": "combat",
+        "shouldKill": true,
+        "shouldKillParse": "You slit a",
+        "stanceCommand": "duel"
+    },

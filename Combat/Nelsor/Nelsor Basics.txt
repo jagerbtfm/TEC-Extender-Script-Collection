@@ -1,0 +1,25 @@
+    {
+        "addAttack": false,
+        "commandList": [
+            {
+                "command": "rarch",
+                "parse": {
+                    "moveNextWhen": "You are no longer busy",
+                    "outcome": "You slowly lower"
+                }
+            },
+            {
+                command": "kslash",
+                "parse": {
+                    "moveNextWhen": "You are no longer busy",
+                    "outcome": "You lash out"
+                }
+            }
+        ],
+        "scriptFriendlyName": "Nelsor for SP",
+        "scriptName": "nelsorSp",
+        "scriptType": "combat",
+        "shouldKill": true,
+        "shouldKillParse": "You slit a",
+        "stanceCommand": "tiger"
+    },

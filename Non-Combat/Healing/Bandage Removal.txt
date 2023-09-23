@@ -1,0 +1,248 @@
+  {
+        "commandList": [
+            {
+                "command": "cut bandage from head",
+                "parse": [
+                    {
+                        "moveNextWhen": "You are no longer busy",
+                        "outcome": "You remove the bandages from"
+                    },
+                    {
+                        "moveNextWhen": "",
+                        "outcome": "There are no bandages there"
+                    }
+                ]
+            },
+            {
+                "command": "cut bandage from face",
+                "parse": [
+                    {
+                        "moveNextWhen": "You are no longer busy",
+                        "outcome": "You remove the bandages from"
+                    },
+                    {
+                        "moveNextWhen": "",
+                        "outcome": "There are no bandages there"
+                    }
+                ]
+            },
+	    {
+                "command": "cut bandage from neck",
+                "parse": [
+                    {
+                        "moveNextWhen": "You are no longer busy",
+                        "outcome": "You remove the bandages from"
+                    },
+                    {
+                        "moveNextWhen": "",
+                        "outcome": "There are no bandages there"
+                    }
+                ]
+            },
+	    {
+                "command": "cut bandage from chest",
+                "parse": [
+                    {
+                        "moveNextWhen": "You are no longer busy",
+                        "outcome": "You remove the bandages from"
+                    },
+                    {
+                        "moveNextWhen": "",
+                        "outcome": "There are no bandages there"
+                    }
+                ]
+            },
+	    {
+                "command": "cut bandage from waist",
+                "parse": [
+                    {
+                        "moveNextWhen": "You are no longer busy",
+                        "outcome": "You remove the bandages from"
+                    },
+                    {
+                        "moveNextWhen": "",
+                        "outcome": "There are no bandages there"
+                    }
+                ]
+            },
+	    {
+                "command": "cut bandage from back",
+                "parse": [
+                    {
+                        "moveNextWhen": "You are no longer busy",
+                        "outcome": "You remove the bandages from"
+                    },
+                    {
+                        "moveNextWhen": "",
+                        "outcome": "There are no bandages there"
+                    }
+                ]
+            },
+	    {
+                "command": "cut bandage from right shoulder",
+                "parse": [
+                    {
+                        "moveNextWhen": "You are no longer busy",
+                        "outcome": "You remove the bandages from"
+                    },
+                    {
+                        "moveNextWhen": "",
+                        "outcome": "There are no bandages there"
+                    }
+                ]
+            },
+	    {
+                "command": "cut bandage from right arm",
+                "parse": [
+                    {
+                        "moveNextWhen": "You are no longer busy",
+                        "outcome": "You remove the bandages from"
+                    },
+                    {
+                        "moveNextWhen": "",
+                        "outcome": "There are no bandages there"
+                    }
+                ]
+            },
+	    {
+                "command": "cut bandage from right hand",
+                "parse": [
+                    {
+                        "moveNextWhen": "You are no longer busy",
+                        "outcome": "You remove the bandages from"
+                    },
+                    {
+                        "moveNextWhen": "",
+                        "outcome": "There are no bandages there"
+                    }
+                ]
+            },
+	    {
+                "command": "cut bandage from right thigh",
+                "parse": [
+                    {
+                        "moveNextWhen": "You are no longer busy",
+                        "outcome": "You remove the bandages from"
+                    },
+                    {
+                        "moveNextWhen": "",
+                        "outcome": "There are no bandages there"
+                    }
+                ]
+            },
+	    {
+                "command": "cut bandage from right shin",
+                "parse": [
+                    {
+                        "moveNextWhen": "You are no longer busy",
+                        "outcome": "You remove the bandages from"
+                    },
+                    {
+                        "moveNextWhen": "",
+                        "outcome": "There are no bandages there"
+                    }
+                ]
+            },
+	    {
+                "command": "cut bandage from right foot",
+                "parse": [
+                    {
+                        "moveNextWhen": "You are no longer busy",
+                        "outcome": "You remove the bandages from"
+                    },
+                    {
+                        "moveNextWhen": "",
+                        "outcome": "There are no bandages there"
+                    }
+                ]
+            },
+	    {
+                "command": "cut bandage from left shoulder",
+                "parse": [
+                    {
+                        "moveNextWhen": "You are no longer busy",
+                        "outcome": "You remove the bandages from"
+                    },
+                    {
+                        "moveNextWhen": "",
+                        "outcome": "There are no bandages there"
+                    }
+                ]
+            },
+	    {
+                "command": "cut bandage from left arm",
+                "parse": [
+                    {
+                        "moveNextWhen": "You are no longer busy",
+                        "outcome": "You remove the bandages from"
+                    },
+                    {
+                        "moveNextWhen": "",
+                        "outcome": "There are no bandages there"
+                    }
+                ]
+            },
+	    {
+                "command": "cut bandage from left hand",
+                "parse": [
+                    {
+                        "moveNextWhen": "You are no longer busy",
+                        "outcome": "You remove the bandages from"
+                    },
+                    {
+                        "moveNextWhen": "",
+                        "outcome": "There are no bandages there"
+                    }
+                ]
+            },
+	    {
+                "command": "cut bandage from left thigh",
+                "parse": [
+                    {
+                        "moveNextWhen": "You are no longer busy",
+                        "outcome": "You remove the bandages from"
+                    },
+                    {
+                        "moveNextWhen": "",
+                        "outcome": "There are no bandages there"
+                    }
+                ]
+            },
+	    {
+                "command": "cut bandage from left shin",
+                "parse": [
+                    {
+                        "moveNextWhen": "You are no longer busy",
+                        "outcome": "You remove the bandages from"
+                    },
+                    {
+                        "moveNextWhen": "",
+                        "outcome": "There are no bandages there"
+                    }
+                ]
+            },
+	    {
+                "command": "cut bandage from left foot",
+                "parse": [
+                    {
+                        "moveNextWhen": "You are no longer busy",
+                        "outcome": "You remove the bandages from"
+                    },
+                    {
+                        "moveNextWhen": "",
+                        "outcome": "There are no bandages there"
+                    }
+                ]
+            },
+            {
+                "command": "say all done",
+                "parse": {
+                    "moveNextWhen": "You are no longer busy",
+                    "outcome": "All finished"
+                }
+            }
+        ],
+        "scriptFriendlyName": "Bandage Removal",
+        "scriptName": "removebanadage",
+        "scriptType": "nonCom"
+    },

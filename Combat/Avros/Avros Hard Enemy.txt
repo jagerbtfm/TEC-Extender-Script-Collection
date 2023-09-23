@@ -1,0 +1,52 @@
+   {
+        "addAttack": false,
+        "commandList": [
+            {
+                "command": "sslash",
+                "parse": {
+                    "moveNextWhen": "You are no longer busy",
+                    "outcome": "suddenly with your"
+                }
+            },
+            {
+                "command": "edgebash",
+                "parse": {
+                    "moveNextWhen": "You are no longer busy",
+                    "outcome": "Tilting your shield forward"
+                }
+            },
+            {
+                "command": "whirl",
+                "parse": {
+                    "moveNextWhen": "You are no longer busy",
+                    "outcome": "you whirl"
+                }
+            },
+            {
+                "command": "rstrike",
+                "parse": {
+                    "moveNextWhen": "You are no longer busy",
+                    "outcome": "With blinding speed, you chop down"
+                }
+            },
+            {
+                "command": "supbash",
+                "parse": [
+                    {
+                        "moveNextWhen": "You are no longer busy",
+                        "outcome": "You bash upward at a"
+                    },
+                    {
+                        "moveNextWhen": "You are no longer busy",
+                        "outcome": "You miss a"
+                    }
+                ]
+            }
+        ],
+        "scriptFriendlyName": "Avros Hard Enemy",
+        "scriptName": "avroshardones",
+        "scriptType": "combat",
+        "shouldKill": true,
+        "shouldKillParse": "You slit a",
+        "stanceCommand": "duel"
+    },

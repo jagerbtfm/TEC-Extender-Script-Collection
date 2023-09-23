@@ -1,0 +1,27 @@
+    {
+        "commandList": [
+                 {
+                "command": "find herbs",
+                "parse": {
+                    "moveNextWhen": "You are no longer busy",
+                    "outcome": "search the area carefully"
+                }
+            },
+            {
+                "command": "plantid seed|leaf|flower",
+                "parse": [
+                    {
+                        "moveNextWhen": "You are no longer busy",
+                        "outcome": "You carefully study a"
+                    },
+                    {
+                        "moveNextWhen": "You are no longer busy",
+                        "outcome": "You have no idea"
+                    }
+                ]
+            }
+        ],
+        "scriptFriendlyName": "Herbalism",
+        "scriptName": "herb",
+        "scriptType": "nonCom"
+    },

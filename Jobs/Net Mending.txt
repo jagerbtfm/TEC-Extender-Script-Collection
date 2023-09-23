@@ -1,0 +1,21 @@
+    {
+        "commandList": [
+            {
+                "command": "search",
+                "parse": {
+                    "moveNextWhen": "",
+                    "outcome": "You come across"
+                }
+            },
+            {
+                "command": "get apple",
+                "parse": {
+                    "moveNextWhen": "",
+                    "outcome": "You take"
+                }
+            }
+        ],
+        "scriptFriendlyName": "Apple Harvest",
+        "scriptName": "apples",
+        "scriptType": "nonCom"
+    },

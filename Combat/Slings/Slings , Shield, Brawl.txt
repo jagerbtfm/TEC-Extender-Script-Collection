@@ -1,0 +1,84 @@
+    {
+        "addAttack": false,
+        "commandList": [
+            {
+                "command": "load sling with bullet",
+                "parse": [
+                    {
+                        "moveNextNow": true,
+                        "outcome": "is already loaded"
+                    },
+                    {
+                        "moveNextNow": true,
+                        "outcome": "You don't see any "
+                    },
+                    {
+                        "moveNextWhen": "You are no longer busy",
+                        "outcome": "You load a"
+                    }
+                ],
+                "targetRequired": false
+            },
+            {
+                "command": "slingclobber",
+                "parse": [
+                    {
+                        "moveNextNow": true,
+                        "outcome": "isn't loaded"
+                    },
+                    {
+                        "moveNextWhen": "You are no longer busy",
+                        "outcome": "slips out of your"
+                    }
+                ]
+            },       
+            {
+                "command": "edgebash",
+                "parse": {
+                    "moveNextWhen": "You are no longer busy",
+                    "outcome": "Tilting your shield forward"
+                }
+            },
+            {
+                "command": "stomp",
+                "parse": [
+                    {
+                        "moveNextWhen": "You are no longer busy",
+                        "outcome": "You stomp your foot"
+                    },
+                    {
+                        "moveNextWhen": "You are no longer busy",
+                        "outcome": "You stomp at a"
+                    }
+                ]
+            },     
+            {
+                "command": "kick",
+                "parse": {
+                    "moveNextWhen": "You are no longer busy",
+                    "outcome": "You kick your leg"
+                }
+            },       
+            {
+                "command": "kneebreak",
+                "parse": [
+                    {
+                        "moveNextWhen": "You are no longer busy",
+                        "outcome": "You kick a"
+                    },
+                    {
+                        "moveNextWhen": "You are no longer busy",
+                        "outcome": "You try to kick"
+                    }
+                ]
+            }
+        ],
+        "continueOnWalkIn": true,
+        "scriptFriendlyName": "Slings, Shields, Brawling",
+        "scriptName": "slingshieldbrawl",
+        "scriptType": "combat",
+        "shouldKill": true,
+        "shouldKillParse": "you slam the bottom|you strangle",
+        "stanceCommand": "windup",
+        "weaponItemName": ""
+    },

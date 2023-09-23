@@ -1,0 +1,35 @@
+    {
+        "commandList": [
+            {
+                "command": "gather twigs",
+                "parse": {
+                    "moveNextWhen": "You are no longer busy",
+                    "outcome": "You gather up a handful"
+                }
+            },
+            {
+                "command": "stoke bonfire with twig",
+                "parse": {
+                    "moveNextWhen": "You are no longer busy",
+                    "outcome": "You carefully work"
+                }
+            },
+            {
+                "command": "hide here",
+                "parse": {
+                    "moveNextWhen": "You are no longer busy",
+                    "outcome": "You manage to find"
+                }
+            },
+            {
+                "command": "jump",
+                "parse": {
+                    "moveNextWhen": "You are no longer busy",
+                    "outcome": "You reveal yourself"
+                }
+            }
+        ],
+        "scriptFriendlyName": "Outdoors Practice",
+        "scriptName": "outdoorspractive",
+        "scriptType": "nonCom"
+    },

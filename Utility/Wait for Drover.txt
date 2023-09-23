@@ -1,0 +1,40 @@
+  {
+        "commandList": [
+            {
+                "command": "follow drover",
+                "parse": [
+                    {
+                        "moveNextWhen": "",
+                        "outcome": "You follow"
+                    },
+                    {
+                        "moveNextWhen": "",
+                        "outcome": "A drover makes his way"
+                    }
+                ]
+            },
+            {
+                "command": "follow drover",
+                "parse": [
+                    {
+                        "moveNextWhen": "",
+                        "outcome": "You follow"
+                    },
+                    {
+                        "moveNextWhen": "",
+                        "outcome": "A drover makes his way"
+                    }
+                ]
+            },
+            {
+                "command": "say to drover Following you",
+                "parse": {
+                    "moveNextWhen": "You are no longer busy",
+                    "outcome": "All finished"
+                }
+            }
+        ],
+        "scriptFriendlyName": "Wait for Drover",
+        "scriptName": "droverwait",
+        "scriptType": "nonCom"
+    },

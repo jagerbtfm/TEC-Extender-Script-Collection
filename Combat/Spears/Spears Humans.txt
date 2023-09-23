@@ -1,0 +1,59 @@
+       {
+        "addAttack": false,
+        "commandList": [
+            {
+                "command": "slash",
+                "parse": {
+                    "moveNextWhen": "You are no longer busy",
+                    "outcome": "You slash"
+                }
+            },
+            {
+                "command": "jab",
+                "parse": {
+                    "moveNextWhen": "You are no longer busy",
+                    "outcome": "You jab at a"
+                }
+            },
+            {
+                "command": "smash",
+                "parse": {
+                    "moveNextWhen": "You are no longer busy",
+                    "outcome": "Using your spear as a"
+                }
+            },
+            {
+                "command": "stab",
+                "parse": {
+                    "moveNextWhen": "You are no longer busy",
+                    "outcome": "You make a quick"
+                }
+            },
+            {
+                "command": "upslash",
+                "parse": {
+                    "moveNextWhen": "You are no longer busy",
+                    "outcome": "ou twist your wrists and sweep the blade of your spear upward"
+                }
+            },
+            {
+                "command": "sweep",
+                "parse": [
+                    {
+                        "moveNextWhen": "You are no longer busy",
+                        "outcome": "you sweep at a"
+                    },
+                    {
+                        "moveNextWhen": "",
+                        "outcome": "You can't trip"
+                    }
+                ]
+            }
+        ],
+        "scriptFriendlyName": "Spears Humans",
+        "scriptName": "spearshumans",
+        "scriptType": "combat",
+        "shouldKill": true,
+        "shouldKillParse": "You thrust your",
+        "stanceCommand": "scorpion"
+    },

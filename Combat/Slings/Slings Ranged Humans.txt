@@ -1,0 +1,148 @@
+   {
+        "addAttack": false,
+        "commandList": [
+          {
+		   "command": "load sling with my bullet|stone",
+		   "parse": [
+		   	{
+		      	"moveNextNow": true,
+				"outcome": "is already loaded"
+			},
+			{
+				"moveNextWhen": "You are no longer busy",
+				"outcome": "You load a"
+			}
+		],
+		"targetRequired": false
+		},
+	{
+		"command": "slingarc",
+		"parse": [
+			{
+				"moveNextNow": true,
+				"outcome": "isn't loaded"
+			},
+			{
+				"moveNextWhen": "You are no longer busy",
+	       		"outcome": "You tilt your arm back and whip"
+			}
+		]
+	},
+          {
+		   "command": "load sling with my bullet|stone",
+		   "parse": [
+		   	{
+		      	"moveNextNow": true,
+				"outcome": "is already loaded"
+			},
+			{
+				"moveNextWhen": "You are no longer busy",
+				"outcome": "You load a"
+			}
+		],
+		"targetRequired": false
+		},
+	{
+		"command": "slingfocus",
+		"parse": [
+			{
+				"moveNextNow": true,
+				"outcome": "isn't loaded"
+			},
+			{
+				"moveNextWhen": "You are no longer busy",
+	       		"outcome": "You take careful aim before pitching your"
+			}
+		]
+	},
+          {
+		   "command": "load sling with my bullet|stone",
+		   "parse": [
+		   	{
+		      	"moveNextNow": true,
+				"outcome": "is already loaded"
+			},
+			{
+				"moveNextWhen": "You are no longer busy",
+				"outcome": "You load a"
+			}
+		],
+		"targetRequired": false
+		},
+	{
+		"command": "slingunder",
+		"parse": [
+			{
+				"moveNextNow": true,
+				"outcome": "isn't loaded"
+			},
+			{
+				"moveNextWhen": "You are no longer busy",
+	       		"outcome": "You spin your sling low at your side before flinging"
+			}
+		]
+	},
+          {
+		   "command": "load sling with my bullet|stone",
+		   "parse": [
+		   	{
+		      	"moveNextNow": true,
+				"outcome": "is already loaded"
+			},
+			{
+				"moveNextWhen": "You are no longer busy",
+				"outcome": "You load a"
+			}
+		],
+		"targetRequired": false
+		},
+	{
+		"command": "slingsnap",
+		"parse": [
+			{
+				"moveNextNow": true,
+				"outcome": "isn't loaded"
+			},
+			{
+				"moveNextWhen": "You are no longer busy",
+	       		"outcome": "You snap your sling and release quickly"
+			}
+		]
+	},
+          {
+		   "command": "load sling with my bullet|stone",
+		   "parse": [
+		   	{
+		      	"moveNextNow": true,
+				"outcome": "is already loaded"
+			},
+			{
+				"moveNextWhen": "You are no longer busy",
+				"outcome": "You load a"
+			}
+		],
+		"targetRequired": false
+		},
+	{
+		"command": "sling",
+		"parse": [
+			{
+				"moveNextNow": true,
+				"outcome": "isn't loaded"
+			},
+			{
+				"moveNextWhen": "You are no longer busy",
+	       		"outcome": "You whip your sling and release"
+			}
+		]
+            }
+        ],
+        "continueOnWalkIn": true,
+        "scriptFriendlyName": "Slings Ranged Human",
+        "scriptName": "slingranghum",
+        "scriptType": "combat",
+        "shouldKill": true,
+        "shouldKillParse": "you slam the bottom|you strangle",
+        "stanceCommand": "windup",
+        "weaponItemName": ""
+    },

@@ -1,0 +1,14 @@
+    {
+        "commandList": [
+            {
+                "command": "get <target> from wagon",
+                "parse": {
+                    "moveNextWhen": "",
+                    "outcome": "You take"
+                }
+            }
+        ],
+        "scriptFriendlyName": "Get Items",
+        "scriptName": "getitems",
+        "scriptType": "nonCom"
+    },

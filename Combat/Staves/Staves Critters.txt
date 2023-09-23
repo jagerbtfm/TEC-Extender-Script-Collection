@@ -1,0 +1,38 @@
+     {
+        "addAttack": false,
+        "commandList": [
+            {
+                "command": "spinstrike",
+                "parse": {
+                    "moveNextWhen": "You are no longer busy",
+                    "outcome": "Stepping slightly to the side, you"
+                }
+            },
+            {
+                "command": "triplebash",
+                "parse": [
+                    {
+                        "moveNextWhen": "You are no longer busy",
+                        "outcome": "Bashing downward with your"
+                    },
+                    {
+                        "moveNextWhen": "You are no longer busy",
+                        "outcome": "Bashing downwards with your"
+                    }
+                ]
+            },
+            {
+                "command": "snaps",
+                "parse": {
+                    "moveNextWhen": "You are no longer busy",
+                    "outcome": "you chop down at"
+                }
+            }
+        ],
+        "scriptFriendlyName": "Staves Critters",
+        "scriptName": "stavescritters",
+        "scriptType": "combat",
+        "shouldKill": true,
+        "shouldKillParse": "You bash a",
+        "stanceCommand": "skirmish"
+    },

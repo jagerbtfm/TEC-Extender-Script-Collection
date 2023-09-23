@@ -1,0 +1,65 @@
+	{
+		"addAttack": false,
+		"commandList": [
+			{
+				"command": "shoot",
+				"parse": [
+					{
+						"moveNextNow": true,
+						"outcome": "isn't loaded"
+					},
+					{
+						"moveNextWhen": "You are no longer busy",
+						"outcome": "You fire a"
+					}
+				]
+			},
+			{
+				"command": "handshot",
+				"parse": [
+					{
+						"moveNextNow": true,
+						"outcome": "isn't loaded"
+					},
+					{
+						"moveNextWhen": "You are no longer busy",
+						"outcome": "You take careful aim"
+					}
+				]
+			},
+			{
+				"command": "headshot",
+				"parse": [
+					{
+						"moveNextNow": true,
+						"outcome": "isn't loaded"
+					},
+					{
+						"moveNextWhen": "You are no longer busy",
+						"outcome": "You fire a"
+					}
+				]
+			},
+			{
+				"command": "quicksh",
+				"parse": [
+					{
+						"moveNextNow": true,
+						"outcome": "isn't loaded"
+					},
+					{
+						"moveNextWhen": "You are no longer busy",
+						"outcome": "You quickly raise your"
+					}
+				]
+			}
+		],
+		"continueOnWalkIn": true,
+		"scriptFriendlyName": "Archery Core - Auto Load",
+		"scriptName": "archCore",
+		"scriptType": "combat",
+		"shouldKill": true,
+		"shouldKillParse": "you twist sharply",
+		"stanceCommand": "",
+		"weaponItemName": ""
+	},

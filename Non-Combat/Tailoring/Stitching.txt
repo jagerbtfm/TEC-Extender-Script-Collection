@@ -1,0 +1,47 @@
+   {
+        "commandList": [
+            {
+                "command": "stitch <target>",
+                "parse": [
+                    {
+                        "moveNextWhen": "You are no longer busy",
+                        "outcome": "is not threaded "
+                    },
+                    {
+                        "moveNextWhen": "You are no longer busy",
+                        "outcome": "has the maximum number of accessories already"
+                    }
+                ]
+            },
+            {
+                "command": "thread needle with spools",
+                "parse": [
+                    {
+                        "moveNextWhen": "",
+                        "outcome": "is already threaded"
+                    },
+                    {
+                        "moveNextWhen": "You are no longer busy",
+                        "outcome": "You thread a"
+                    }
+                ]
+            },
+            {
+                "command": "stitch <target>",
+                "parse": {
+                        "moveNextWhen": "You are no longer busy",
+                        "outcome": "has the maximum number of accessories already"
+                    }
+            },
+            {
+                "command": "say All Done",
+                "parse": {
+                    "moveNextWhen": "You are no longer busy",
+                    "outcome": "You put a seared"
+                }
+            }
+        ],
+        "scriptFriendlyName": "Stitching",
+        "scriptName": "stitch",
+        "scriptType": "nonCom"
+    },

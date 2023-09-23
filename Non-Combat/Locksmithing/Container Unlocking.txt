@@ -1,0 +1,61 @@
+   {
+        "commandList": [
+              {
+                "command": "get <target> from tattered",
+                "parse": {
+                    "moveNextWhen": "",
+                    "outcome": "You take a"
+                }
+            },
+	       {
+                "command": "unjam <target> with lockpick",
+                "parse": [
+                    {
+                        "moveNextWhen": "You are no longer busy",
+                        "outcome": "You feel an obstruction release"
+                    },
+                    {
+                        "moveNextWhen": "",
+                        "outcome": "There is nothing jammed open."
+                    }
+                ]
+            },
+                   {
+                "command": "unlock <target> with lockpick",
+                "parse": [
+                    {
+                        "moveNextWhen": "You are no longer busy",
+                        "outcome": "You hear a click as a tumbler mechanism releases"
+                    },
+                    {
+                        "moveNextWhen": "",
+                        "outcome": "It is already unlocked"
+                    }
+                ]
+            },
+            {
+                "command": "open <target>",
+                "parse": {
+                    "moveNextWhen": "",
+                    "outcome": "You open a"
+                }
+            },
+            {
+                "command": "empty <target> into quiver",
+                "parse": {
+                    "moveNextWhen": "",
+                    "outcome": "You empty the contents"
+                }
+            },
+            {
+                "command": "drop <target>",
+                "parse": {
+                    "moveNextWhen": "",
+                    "outcome": "You drop a"
+                }
+            }
+        ],
+        "scriptFriendlyName": "Container unlocking",
+        "scriptName": "contunlock",
+        "scriptType": "nonCom"
+    },

@@ -1,0 +1,37 @@
+    {
+        "commandList": [
+            {
+                "command": "search",
+                "parse": [
+                    {
+                        "moveNextWhen": "",
+                        "outcome": "You come across"
+                    },
+                    {
+                        "moveNextWhen": "",
+                        "outcome": "has turned up empty"
+                    }
+                ]
+            },
+            {
+                "command": "get apple",
+                "parse": [
+                    {
+                        "moveNextWhen": "",
+                        "outcome": "You take"
+                    },
+                    {
+                        "moveNextWhen": "",
+                        "outcome": "You are already carrying"
+                    },
+                    {
+                        "moveNextWhen": "",
+                        "outcome": "You can't reach"
+                    }
+                ]
+            }
+        ],
+        "scriptFriendlyName": "Apple Harvest",
+        "scriptName": "apples",
+        "scriptType": "nonCom"
+    },

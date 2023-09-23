@@ -1,0 +1,47 @@
+      {
+        "addAttack": false,
+        "commandList": [
+            {
+                "command": "edgebash",
+                "parse": {
+                    "moveNextWhen": "You are no longer busy",
+                    "outcome": "Tilting your shield forward"
+            }
+            },
+              {
+                "command": "load sling with bullet",
+                "parse": [
+                    {
+                        "moveNextNow": true,
+                        "outcome": "is already loaded"
+                    },
+                    {
+                        "moveNextWhen": "You are no longer busy",
+                        "outcome": "You load a"
+                    }
+                ],
+                "targetRequired": false
+            },
+            {
+                "command": "slingclobber",
+                "parse": [
+                    {
+                        "moveNextNow": true,
+                        "outcome": "isn't loaded"
+                    },
+                    {
+                        "moveNextWhen": "You are no longer busy",
+                        "outcome": "slips out of your"
+                    }
+                ]
+            }
+        ],
+        "continueOnWalkIn": true,
+        "scriptFriendlyName": "Slings Melee",
+        "scriptName": "slingmelee",
+        "scriptType": "combat",
+        "shouldKill": true,
+        "shouldKillParse": "you slam the bottom|you strangle",
+        "stanceCommand": "windup",
+        "weaponItemName": ""
+    },

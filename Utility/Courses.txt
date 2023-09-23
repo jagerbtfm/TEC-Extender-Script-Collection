@@ -1,0 +1,157 @@
+{
+        "commandList": [
+            {
+                "command": "stand",
+                "parse": [
+                    {
+                        "moveNextWhen": "You are no longer busy",
+                        "outcome": "You stand up"
+                    },
+                    {
+                        "moveNextWhen": "",
+                        "outcome": "You are already standing."
+                    }
+                ]
+            },
+            {
+                "command": "e",
+                "parse": [
+                    {
+                        "moveNextWhen": "",
+                        "outcome": "You don't see a"
+                    },
+                    {
+                        "moveNextWhen": "You arrive at a climbing wall.",
+                        "outcome": "You walk to a climbing wall"
+                    }
+                ]
+            },
+            {
+                "command": "climb rope",
+                "parse": [
+                    {
+                        "moveNextWhen": "",
+                        "outcome": "You don't see any"
+                    },
+                    {
+                        "moveNextWhen": "You arrive",
+                        "outcome": "You start to climb"
+                    }
+                ]
+            },
+            {
+                "command": "go plank",
+                "parse": [
+                    {
+                        "moveNextWhen": "",
+                        "outcome": "You must be standing"
+                    },
+                    {
+                        "moveNextWhen": "You arrive at a",
+                        "outcome": "You pick a plank"
+                    }
+                ]
+            },
+            {
+                "command": "go path",
+                "parse": [
+                    {
+                        "moveNextWhen": "",
+                        "outcome": "You must be standing"
+                    },
+                    {
+                        "moveNextWhen": "You arrive",
+                        "outcome": "You run down"
+                    }
+                ]
+            }
+        ],
+        "scriptFriendlyName": "3 part courses",
+        "scriptName": "3parter",
+        "scriptType": "nonCom"
+    },
+    {
+        "commandList": [
+            {
+                "command": "stand",
+                "parse": [
+                    {
+                        "moveNextWhen": "You are no longer busy",
+                        "outcome": "You stand up"
+                    },
+                    {
+                        "moveNextWhen": "",
+                        "outcome": "You are already standing."
+                    }
+                ]
+            },
+            {
+                "command": "s",
+                "parse": [
+                    {
+                        "moveNextWhen": "",
+                        "outcome": "You don't see a"
+                    },
+                    {
+                        "moveNextWhen": "You arrive at a mud pit.",
+                        "outcome": "You walk to a mud pit"
+                    }
+                ]
+            },
+            {
+                "command": "jump rope",
+                "parse": [
+                    {
+                        "moveNextWhen": "",
+                        "outcome": "You don't see a"
+                    },
+                    {
+                        "moveNextWhen": "You arrive",
+                        "outcome": "You leap at the"
+                    }
+                ]
+            },
+            {
+                "command": "go path",
+                "parse": [
+                    {
+                        "moveNextWhen": "",
+                        "outcome": "You must be standing"
+                    },
+                    {
+                        "moveNextWhen": "You arrive at a",
+                        "outcome": "You race down"
+                    }
+                ]
+            },
+            {
+                "command": "go track",
+                "parse": [
+                    {
+                        "moveNextWhen": "",
+                        "outcome": "You must be standing"
+                    },
+                    {
+                        "moveNextWhen": "You arrive",
+                        "outcome": "You begin to jog"
+                    }
+                ]
+            },
+            {
+                "command": "go coal",
+                "parse": [
+                    {
+                        "moveNextWhen": "",
+                        "outcome": "You must be standing"
+                    },
+                    {
+                        "moveNextWhen": "You arrive",
+                        "outcome": "You clear your mind"
+                    }
+                ]
+            }
+        ],
+        "scriptFriendlyName": "4 part courses",
+        "scriptName": "4parter",
+        "scriptType": "nonCom"
+    },
