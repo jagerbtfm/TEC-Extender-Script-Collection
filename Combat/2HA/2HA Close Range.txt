@@ -1,0 +1,53 @@
+ {
+        "addAttack": false,
+        "commandList": [
+            {
+                "command": "overh",
+                "parse": {
+                    "moveNextWhen": "You are no longer busy",
+                    "outcome": "directing a heavy chop"
+                }
+            },
+            {
+                "command": "cchop",
+                "parse": {
+                    "moveNextWhen": "You are no longer busy",
+                    "outcome": "diagonal chop"
+                }
+            },
+            {
+                "command": "uslash",
+                "parse": [
+                    {
+                        "moveNextWhen": "You are no longer busy",
+                        "outcome": "you slash upward at"
+                    },
+                    {
+                        "moveNextNow": true,
+                        "outcome": "This maneuver needs to follow"
+                    }
+                ]
+            },
+            {
+                "command": "sap",
+                "parse": {
+                    "moveNextWhen": "You are no longer busy",
+                    "outcome": "snap the haft"
+                }
+            },
+            {
+                "command": "hslash <target> low",
+                "parse": {
+                    "moveNextWhen": "You are no longer busy",
+                    "outcome": "wide-arced slash"
+                }
+            }
+        ],
+        "continueOnWalkIn": true,
+        "scriptFriendlyName": "Two-Handed Axe Fast and Hard",
+        "scriptName": "twoHandFastHard",
+        "scriptType": "combat",
+        "shouldKill": true,
+        "shouldKillParse": "With massive force",
+        "stanceCommand": "wgrip"
+    },
