@@ -1,0 +1,21 @@
+    {
+        "commandList": [
+            {
+                "command": "gather twigs",
+                "parse": {
+                    "moveNextWhen": "You are no longer busy",
+                    "outcome": "You gather"
+                }
+            },
+            {
+                "command": "stoke fire|bonfire with twig",
+                "parse": {
+                    "moveNextWhen": "You are no longer busy",
+                    "outcome": "You carefully"
+                }
+            }
+        ],
+        "scriptFriendlyName": "Outdoors Stoke Fire",
+        "scriptName": "outdoorsStoke",
+        "scriptType": "nonCom"
+    },
